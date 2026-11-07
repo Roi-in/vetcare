@@ -1,0 +1,8 @@
+label { font-size: .85rem; font-weight: 600; margin-top: 8px; }
+input, select, textarea { padding: 10px 12px; border: 1px solid var(--borda); border-radius: 8px; font: inherit; }
+.botao { background: var(--azul); color: #fff; border: 0; padding: 12px; border-radius: 8px; font: inherit; cursor: pointer; margin-top: 12px; }
+.botao:hover { filter: brightness(1.15); }
+.erro { color: var(--erro); margin: 4px 0 0; font-size: .9rem; }
+.subtitulo { color: #6b7782; margin: 0 0 8px; }
+.cartao { background: #fff; border: 1px solid var(--borda); border-radius: 12px; padding: 20px; }
+.selo { padding: 2px 10px; border-radius: 999px; font-size: .75rem; color: #fff; background: var(--verde); }
