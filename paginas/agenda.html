@@ -20,8 +20,20 @@
   <div class="corpo">
     <nav id="menu" class="menu"></nav>
     <main class="conteudo">
-      <h1>Agenda</h1>
-      <div class="cartao">Em construção.</div>
+      <div class="cabecalho"><h1 id="titulo">Agenda</h1><p id="subtitulo" class="subtitulo"></p></div>
+      <div class="abas">
+        <button type="button" class="aba ativa" data-visao="dia">Dia</button>
+        <button type="button" class="aba" data-visao="semana">Semana</button>
+        <button type="button" class="aba" data-visao="profissional">Profissional</button>
+      </div>
+      <div class="filtros">
+        <div id="campo-data"><label for="data">Data</label><input id="data" type="date"></div>
+        <div id="campo-vet"><label for="veterinario">Veterinário</label><select id="veterinario"></select></div>
+      </div>
+      <p id="aviso" class="aviso" hidden></p>
+      <div class="cartao" style="padding:0;overflow:hidden">
+        <table class="tabela" style="margin:0"><thead><tr><th>Data</th><th>Hora</th><th>Animal · Tutor</th><th>Veterinário</th><th>Status</th></tr></thead><tbody id="lista"></tbody></table>
+      </div>
     </main>
   </div>
 
